@@ -1,0 +1,17 @@
+import streamlit as st
+st.title("nhập thông tin ng dùng")
+name = st.text_input("nhặp tên: ")
+address = st.text_input("nhặp địa chỉ: ")
+phone_number = st.text_input("nhặp nhặp số đt: ")
+email = st.text_input("nhặp email: ")
+math_score = st.text_input("nhặp điểm toán: ")
+art_score = st.text_input("nhặp điểm mỹ thuật: ")
+computer_science_score = st.text_input("nhặp điểm tin học: ")
+
+st.write(name)
+st.write(address)
+st.write(phone_number)
+st.write(email)
+st.write(math_score)
+st.write(art_score)
+st.write(computer_science_score)
